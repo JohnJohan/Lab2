@@ -1,0 +1,6 @@
+public class Archer implements strategyType{
+public String roleStrategy(){
+String output = new String();
+output += output += "Using a shield to defend!";
+return output;
+}
