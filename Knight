@@ -1,0 +1,8 @@
+public class Knight implements strategyType{
+public String roleStrategy(){
+String output = new String();
+output += "Using a shield to defend!\n"+
+"Dodgin to avoid attack!\n"+
+"Creating a magic barrier for defense!";
+return output;
+}
