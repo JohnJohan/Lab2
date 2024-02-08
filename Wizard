@@ -1,0 +1,6 @@
+public class Wizard implements strategyType{
+public String roleStrategy(){
+String output = new String();
+output += "Creating a magic barrier for defense!";
+return output;
+}
