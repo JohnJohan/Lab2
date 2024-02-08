@@ -1,7 +1,7 @@
 public class RoleDemo{
   public static void main(String[]args){
 
-    Demo demo = new Demo (roleAction:"Player choose", rolePlayer:"Knight";
+    Demo demo = new Demo (roleAction:"Using a shield to defend!", rolePlayer:"Knight";
                           System.out.print(demo.roleStrategy());
     
     }
