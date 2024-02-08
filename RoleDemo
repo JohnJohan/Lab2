@@ -1,0 +1,8 @@
+public class RoleDemo{
+  public static void main(String[]args){
+
+    Demo demo = new Demo (roleAction:"Player choose", rolePlayer:"Knight";
+                          System.out.print(demo.roleStrategy());
+    
+    }
+  }
