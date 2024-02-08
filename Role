@@ -1,0 +1,14 @@
+public class Role{
+
+private String roleAction;
+private String rolePlayer;
+
+public Demo (String roleAction, String rolePlayer){
+this.roleAction = roleAction;
+this.rolePlayer = rolePlayer;
+
+public String roleStrategy(){ [0]strategyType
+return " Your action is " + roleAction + "\n" +
+strategyType.roleStrategy();
+      }
+  }
