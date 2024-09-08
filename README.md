@@ -1,1 +1,1 @@
-# Lab2
+**Strategy Pattern**
