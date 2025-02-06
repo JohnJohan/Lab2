@@ -1,4 +1,3 @@
-// Concrete Strategy: Knight
 public class KnightRole implements RoleStrategy {
     @Override
     public void attack() {
@@ -11,7 +10,6 @@ public class KnightRole implements RoleStrategy {
     }
 }
 
-// Concrete Strategy: Mage
 public class MageRole implements RoleStrategy {
     @Override
     public void attack() {
@@ -24,7 +22,6 @@ public class MageRole implements RoleStrategy {
     }
 }
 
-// Concrete Strategy: Archer
 public class ArcherRole implements RoleStrategy {
     @Override
     public void attack() {
