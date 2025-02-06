@@ -1,13 +1,13 @@
-// Concrete Strategy: Warrior
-public class WarriorRole implements RoleStrategy {
+// Concrete Strategy: Knight
+public class KnightRole implements RoleStrategy {
     @Override
     public void attack() {
-        System.out.println("Warrior attacks with a sword!");
+        System.out.println("Knight attacks with a sword!");
     }
 
     @Override
     public void defend() {
-        System.out.println("Warrior defends with a shield!");
+        System.out.println("Using a shield to defend!");
     }
 }
 
@@ -15,12 +15,12 @@ public class WarriorRole implements RoleStrategy {
 public class MageRole implements RoleStrategy {
     @Override
     public void attack() {
-        System.out.println("Mage casts a fireball!");
+        System.out.println("Mage casts a spell!");
     }
 
     @Override
     public void defend() {
-        System.out.println("Mage creates a magic barrier!");
+        System.out.println("Creating a magic barrier for defense!");
     }
 }
 
@@ -33,6 +33,6 @@ public class ArcherRole implements RoleStrategy {
 
     @Override
     public void defend() {
-        System.out.println("Archer dodges the attack!");
+        System.out.println("Dodgin to avoid attack!");
     }
 }
