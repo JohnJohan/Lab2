@@ -1,14 +1,27 @@
-public class Role{
+// Context Class
+public class GameCharacter {
+    private RoleStrategy role;
 
-private String roleAction;
-private String rolePlayer;
+    // Set the role dynamically
+    public void setRole(RoleStrategy role) {
+        this.role = role;
+    }
 
-public Demo (String roleAction, String rolePlayer){
-this.roleAction = roleAction;
-this.rolePlayer = rolePlayer;
+    // Perform attack based on the current role
+    public void performAttack() {
+        if (role != null) {
+            role.attack();
+        } else {
+            System.out.println("No role assigned!");
+        }
+    }
 
-public String roleStrategy(){ [0]strategyType
-return " Your action is " + roleAction + "\n" +
-strategyType.roleStrategy();
-      }
-  }
+    // Perform defense based on the current role
+    public void performDefense() {
+        if (role != null) {
+            role.defend();
+        } else {
+            System.out.println("No role assigned!");
+        }
+    }
+}
