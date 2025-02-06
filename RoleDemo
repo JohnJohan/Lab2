@@ -1,20 +1,17 @@
-// Main Class
 public class GameDemo {
     public static void main(String[] args) {
-        // Create a game character
         GameCharacter character = new GameCharacter();
 
-        // Assign different roles and perform actions
-        character.setRole(new WarriorRole());
-        character.performAttack();  // Output: Warrior attacks with a sword!
-        character.performDefense(); // Output: Warrior defends with a shield!
+        character.setRole(new KnightRole());
+        character.performAttack();  // Output: Knight attacks with a sword!
+        character.performDefense(); // Output: Using a shield to defend!
 
         character.setRole(new MageRole());
-        character.performAttack();  // Output: Mage casts a fireball!
-        character.performDefense(); // Output: Mage creates a magic barrier!
+        character.performAttack();  // Output: Mage casts a spell!
+        character.performDefense(); // Output: Creating a magic barrier for defense!
 
         character.setRole(new ArcherRole());
         character.performAttack();  // Output: Archer shoots an arrow!
-        character.performDefense(); // Output: Archer dodges the attack!
+        character.performDefense(); // Output: Dodgin to avoid attack!
     }
 }
