@@ -1,13 +1,10 @@
-// Context Class
 public class GameCharacter {
     private RoleStrategy role;
 
-    // Set the role dynamically
     public void setRole(RoleStrategy role) {
         this.role = role;
     }
 
-    // Perform attack based on the current role
     public void performAttack() {
         if (role != null) {
             role.attack();
@@ -16,7 +13,6 @@ public class GameCharacter {
         }
     }
 
-    // Perform defense based on the current role
     public void performDefense() {
         if (role != null) {
             role.defend();
