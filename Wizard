@@ -1,7 +1,0 @@
-public class Wizard implements strategyType{
-public String roleStrategy(){
-String output = new String();
-output += "Wizard casts a spell!\n"+
-"Creating a magic barrier for defense!";
-return output;
-}
