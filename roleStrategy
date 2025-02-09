@@ -1,0 +1,4 @@
+public interface roleStrategy {
+    void attack();
+    void defend();
+}

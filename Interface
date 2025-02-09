@@ -1,3 +1,0 @@
-public Interface roleStrategy{
-public String roleStraregyType();
-}
