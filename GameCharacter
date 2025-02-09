@@ -1,7 +1,7 @@
 public class GameCharacter {
-    private RoleStrategy role;
+    private roleStrategy role;
 
-    public void setRole(RoleStrategy role) {
+    public void setRole(roleStrategy role) {
         this.role = role;
     }
 
