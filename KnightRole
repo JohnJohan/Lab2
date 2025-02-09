@@ -1,0 +1,11 @@
+public class KnightRole implements roleStrategy {
+    @Override
+    public void attack() {
+        System.out.println("Knight attacks with a sword!");
+    }
+
+    @Override
+    public void defend() {
+        System.out.println("Knight defends with a shield!");
+    }
+}
