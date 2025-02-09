@@ -1,0 +1,11 @@
+public class MageRole implements roleStrategy {
+    @Override
+    public void attack() {
+        System.out.println("Mage casts a fireball!");
+    }
+
+    @Override
+    public void defend() {
+        System.out.println("Mage creates a magic barrier!");
+    }
+}
